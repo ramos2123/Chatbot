@@ -1,0 +1,50 @@
+import random
+response = random.randint(1,2)
+
+name = input("What is your first name? ")
+print()
+if(response == 1):
+    print("Nice to meet you, " + name + "!")
+    
+shoes = input(" what shoes do you like? ")
+print()
+response2 = random.randint(1,2)
+if(response2 == 1):
+    print("Nice, casual is always in! ")
+elif(response2 == 2):
+    print("Good choice! ")
+else:
+    print("Cool")
+    
+age = input(" How old are you? ")
+print()
+response3 = random.randint(1,2)
+if(response3 == 1):
+    print(  age + " is a good age to start exploring style. ")
+elif(response3 == 2):
+    print("I think I might know your style ")
+else:
+    print("Great")
+
+    
+top = input("So, " + name + " what is your favorite top?  ")
+print()
+response4 = random.randint(1,2)
+if(response4 == 1):
+    print("That's a good choice. ")
+elif(response4 == 2):
+    print("I like where this is going. ")
+else:
+    print("Ayy that’s lit.")
+    
+bottom = input("What about your choice of bottom?  ")
+print()
+response5 = random.randint(1,2)
+if(response5 == 1):
+    print("You can’t go wrong with those. ")
+    
+final = input("Anything else you want to add?  ")
+print()
+response6 = random.randint(1,2)
+if(response6 == 1):
+    print("Well,"+ name + " it was awesome getting to know your style. ")
